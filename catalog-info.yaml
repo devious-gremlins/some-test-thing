@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: some-test-thing
+  annotations:
+    github.com/project-slug: devious-gremlins/some-test-thing
+spec:
+  type: other
+  lifecycle: unknown
+  owner: users
